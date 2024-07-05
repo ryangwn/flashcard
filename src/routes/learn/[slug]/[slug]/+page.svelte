@@ -12,26 +12,36 @@
   let sliderWidth = $derived(sliderWrapper?.scrollWidth + (24 * 2))
   let cardWidth = $derived(sliderWrapper?.children?.[0].offsetWidth)
 
-  function getPronuncationAudio(word) {
-    let audio = false
-    let canplaythrough = false
+  function getPronunciationAudio(word) {
+  let audio = null;
+  let isLoaded = false;
 
-    return () => {
-      if (!audio) {
-        audio = new Audio()
-        audio.preload = 'auto'
-        audio.src = `https://dict.youdao.com/dictvoice?audio=${word}&type=2`
-        audio.oncanplaythrough = () => {
-          canplaythrough = true
-          audio.play()
-        }
-      }
-      // On next time play sound
-      if (canplaythrough) {
-        audio.currentTime = 0
-        audio.play()
-      }
+  function playAudio() {
+    // iOS requires user interaction to play audio
+    const playPromise = audio.play();
+    
+    if (playPromise !== undefined) {
+      playPromise.catch(error => {
+        console.log('Playback error:', error);
+        // Auto-play was prevented, you might want to show a "play" button here
+      });
     }
+  }
+
+  return () => {
+    if (!audio) {
+      audio = new Audio(`https://dict.youdao.com/dictvoice?audio=${word}&type=2`);
+      
+      audio.addEventListener('canplaythrough', () => {
+        isLoaded = true;
+        playAudio();
+      }, { once: true });
+
+      audio.load();
+    } else if (isLoaded) {
+      playAudio();
+    }
+  };
   }
 </script>
 
@@ -53,7 +63,7 @@
     style="transition: transform 400ms cubic-bezier(0.05, 0.7, 0.1, 1.0); width: {sliderWidth}px"
   >
     {#each unit?.words as w}
-      {@const playsound = getPronuncationAudio(w.word)}
+      {@const playsound = getPronunciationAudio(w.word)}
       <div class="shrink-0 relative z-10 flex flex-col gap-1 rounded-xl bg-white shadow-sm p-6 min-h-96" style="width: calc(100vw - 24px * 2);">
         <div class="flex flex-col w-full">
           <div class="font-wide text-3xl leading-none underline flex items-center space-x-3">
