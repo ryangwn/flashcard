@@ -6,11 +6,11 @@
   import vocaInUsePreIntermediateData from '@/db/voca-in-use-pre-intermediate.json'
 
   const unit = vocaInUsePreIntermediateData.find(u => u.name === $page.params.slug)
-
+  
   let currentIdx = $state(0)
   let sliderWrapper = $state(null)
   let sliderWidth = $derived(sliderWrapper?.scrollWidth + (24 * 2))
-  let cardWidth = 366
+  let cardWidth = $derived(sliderWrapper?.children?.[0].offsetWidth)
 </script>
 
 <div class="bg-black h-screen py-8 flex flex-col justify-center overflow-hidden">
@@ -31,7 +31,7 @@
     style="transition: transform 400ms cubic-bezier(0.2, 0.0, 0, 1.0); width: {sliderWidth}px"
   >
     {#each unit?.words as w}
-      <div class="shrink-0 relative z-10 flex flex-col gap-1 rounded-xl bg-white p-6 min-h-96" style="width: {cardWidth}px;">
+      <div class="shrink-0 relative z-10 flex flex-col gap-1 rounded-xl bg-white p-6 min-h-96" style="width: calc(100vw - 24px * 2);">
         <div class="flex flex-col w-full">
           <span class="font-wide text-3xl leading-none underline">{w.word}</span>
           <span class="mt-2 text-lg text-gray-700">{w.pronuncation.text}</span>
