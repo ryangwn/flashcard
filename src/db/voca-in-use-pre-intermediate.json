@@ -21,17 +21,16 @@
         ]
       },
       {
-        "word": "indeed",
-        "word_type": "adverb",
+        "word": "abstract",
+        "word_type": "",
         "pronuncation": {
-          "text": "/inˈdiːd/",
+          "text": "/ˈæbstrækt/",
           "audio": ""
         },
-        "vi_translate": "thự vậy, thực mà, quả thực",
-        "word_definition": "really or certainly, often used to emphasize something",
+        "vi_translate": "Trừu tượng, Khó hiểu",
+        "word_definition": "existing as an idea, feeling, or quality, not as a material object",
         "examples": [
-          "I know that you can indeed do better than that.",
-          "that is not merely a reason, but is indeed the entire point"
+          "Truth and beauty are abstract concepts"
         ],
         "synonyms": [
   
