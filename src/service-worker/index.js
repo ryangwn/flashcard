@@ -3,7 +3,7 @@ import { ExpirationPlugin } from 'workbox-expiration'
 import { CacheFirst } from 'workbox-strategies'
 
 const domains = [
-  'https://ieltsvitalmin.pages.dev',
+  'https://flashcard-vtm.pages.dev',
 ]
 
 self.addEventListener('install', () => {
