@@ -13,7 +13,7 @@
   let cardWidth = $derived(sliderWrapper?.children?.[0].offsetWidth)
 </script>
 
-<div class="bg-black h-dvh py-8 flex flex-col justify-center overflow-hidden">
+<div class="h-dvh py-8 flex flex-col justify-center overflow-hidden">
   <div class="px-6 self-start text-white">
     <button
       class="w-8 inline-flex items-center justify-center"
@@ -28,10 +28,10 @@
   <div
     bind:this={sliderWrapper}
     class="mt-auto flex flex-nowrap space-x-3 px-6"
-    style="transition: transform 400ms cubic-bezier(0.2, 0.0, 0, 1.0); width: {sliderWidth}px"
+    style="transition: transform 400ms cubic-bezier(0.05, 0.7, 0.1, 1.0); width: {sliderWidth}px"
   >
     {#each unit?.words as w}
-      <div class="shrink-0 relative z-10 flex flex-col gap-1 rounded-xl bg-white p-6 min-h-96" style="width: calc(100vw - 24px * 2);">
+      <div class="shrink-0 relative z-10 flex flex-col gap-1 rounded-xl bg-white shadow-sm p-6 min-h-96" style="width: calc(100vw - 24px * 2);">
         <div class="flex flex-col w-full">
           <span class="font-wide text-3xl leading-none underline">{w.word}</span>
           <span class="mt-2 text-lg text-gray-700">{w.pronuncation.text}</span>
@@ -52,7 +52,7 @@
     {/each}
   </div>
 
-  <div class="px-6 flex items-center justify-between text-white w-full mt-auto">
+  <div class="px-6 flex items-center justify-between w-full mt-auto">
     <button
       class="w-8 inline-flex items-center justify-center disabled:opacity-40 disabled:pointer-events-none"
       onclick={() => {
