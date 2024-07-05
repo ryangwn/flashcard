@@ -14,10 +14,10 @@
     </button>
   </div>
 
-  <div class="my-6">
-    <h1 class="text-3xl">All topics:</h1>
-  </div>
-  <div class="flex flex-col space-y-3">
+  <!-- <div class="my-6">
+    <h1 class="text-2xl">All topics:</h1>
+  </div> -->
+  <div class="flex flex-col space-y-3 mt-6">
     {#each vocaInUsePreIntermediateData as unit}
       <a href="{$page.url.pathname}/{unit.name}">
         <div class="relative z-10 flex flex-col gap-1 rounded-lg p-6 bg-white text-center text-dark h-48">

@@ -14,7 +14,7 @@
 </script>
 
 <div class="h-dvh py-8 flex flex-col justify-center overflow-hidden">
-  <div class="px-6 self-start text-white">
+  <div class="px-6 self-start">
     <button
       class="w-8 inline-flex items-center justify-center"
       onclick={() => {
@@ -37,7 +37,7 @@
           <span class="mt-2 text-lg text-gray-700">{w.pronuncation.text}</span>
         </div>
         <div class="mt-4 flex-1 flex flex-col text-left leading-5">
-          <p>{w.vi_translate}</p>
+          <p class="font-medium text-stone-500">{w.vi_translate}</p>
           <p class="mt-2">{w.word_definition}</p>
 
           <div class="flex-1"></div>

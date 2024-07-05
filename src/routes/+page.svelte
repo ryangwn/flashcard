@@ -4,8 +4,8 @@
 
 <div class="w-full flex flex-col max-w-[468px] p-6">
   <div>
-    <h1 class="text-3xl">Books:</h1>
-    <div class="mt-6">
+    <!-- <h1 class="text-2xl">Books:</h1> -->
+    <div class="my-6">
       <a href="/learn/{slugify('VOCABULARY IN USE Pre-intermediate and Intermediate'.toLowerCase())}-i0417">
         <div class="relative z-10 flex flex-col gap-1 rounded-lg bg-[hsl(76,87%,67%)] p-6 text-center" style="height: 298px;">
           <div class="flex w-full items-center justify-between">
