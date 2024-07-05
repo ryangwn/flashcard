@@ -3,7 +3,7 @@ import { ExpirationPlugin } from 'workbox-expiration'
 import { CacheFirst } from 'workbox-strategies'
 
 const domains = [
-  'https://flashcard-vtm.pages.dev',
+  'https://flashcard-app.vitalmin.group',
 ]
 
 self.addEventListener('install', () => {
@@ -14,7 +14,7 @@ self.addEventListener('install', () => {
 })
 
 registerRoute(
-  /^https:\/\/flashcard-vtm\.pages\.dev(?:\/(?:\?|$).*?)?$/,
+  /^https:\/\/flashcard-app\.vitalmin\.group(?:\/(?:\?|$).*?)?$/,
   new CacheFirst({
     cacheName: 'flashcard-app-base',
     plugins: [
