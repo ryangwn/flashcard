@@ -20,10 +20,7 @@
   <div class="flex flex-col space-y-3">
     {#each vocaInUsePreIntermediateData as unit}
       <a href="{$page.url.pathname}/{unit.name}">
-        <div
-          class="relative z-10 flex flex-col gap-1 rounded-lg p-6 bg-white text-center text-dark"
-          style="height: 273px;"
-        >
+        <div class="relative z-10 flex flex-col gap-1 rounded-lg p-6 bg-white text-center text-dark h-48">
           <div class="flex w-full items-center justify-between">
             <span class="font-wide text-2xl font-medium leading-none">{unit.name}</span>
           </div>
