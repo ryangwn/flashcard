@@ -7,7 +7,6 @@
 
   const unit = vocaInUsePreIntermediateData.find(u => u.name === $page.params.slug)
 
-  console.log('page__', )
   let currentIdx = $state(0)
   let sliderWrapper = $state(null)
   let sliderWidth = $derived(sliderWrapper?.scrollWidth + (24 * 2))
