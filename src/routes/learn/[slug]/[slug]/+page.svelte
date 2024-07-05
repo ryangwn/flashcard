@@ -13,7 +13,7 @@
   let cardWidth = $derived(sliderWrapper?.children?.[0].offsetWidth)
 </script>
 
-<div class="bg-black h-screen py-8 flex flex-col justify-center overflow-hidden">
+<div class="bg-black h-dvh py-8 flex flex-col justify-center overflow-hidden">
   <div class="px-6 self-start text-white">
     <button
       class="w-8 inline-flex items-center justify-center"
