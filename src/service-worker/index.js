@@ -1,6 +1,13 @@
 import { registerRoute } from 'workbox-routing'
 import { ExpirationPlugin } from 'workbox-expiration'
 import { CacheFirst } from 'workbox-strategies'
+import { precacheAndRoute } from 'workbox-precaching'
+import { build } from '$service-worker'
+
+const precacheBuild = build.map(file => ({ url: file, revision: null }))
+precacheAndRoute([
+  ...precacheBuild
+])
 
 const domains = [
   'https://flashcard-app.vitalmin.group',
