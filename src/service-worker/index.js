@@ -1,6 +1,6 @@
 import { registerRoute } from 'workbox-routing'
 import { ExpirationPlugin } from 'workbox-expiration'
-import { CacheFirst } from 'workbox-strategies'
+import { CacheFirst, StaleWhileRevalidate } from 'workbox-strategies'
 import { precacheAndRoute } from 'workbox-precaching'
 import { build } from '$service-worker'
 
@@ -22,14 +22,8 @@ self.addEventListener('install', () => {
 
 registerRoute(
   /^https:\/\/flashcard-app\.vitalmin\.group(?:\/(?:\?|$).*?)?$/,
-  new CacheFirst({
+  new StaleWhileRevalidate({
     cacheName: 'flashcard-app-base',
-    plugins: [
-      new ExpirationPlugin({
-        maxEntries: 2,
-        maxAgeSeconds: 20 * 24 * 60 * 60, // 20 days
-      }),
-    ],
   }),
 )
 

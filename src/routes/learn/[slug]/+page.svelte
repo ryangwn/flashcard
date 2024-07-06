@@ -4,7 +4,7 @@
   import vocaInUsePreIntermediateData from '@/db/voca-in-use-pre-intermediate.json'
 </script>
 
-<div class="p-6">
+<div class="py-8 px-6">
   <div>
     <button
       class="w-8 inline-flex items-center justify-center"
