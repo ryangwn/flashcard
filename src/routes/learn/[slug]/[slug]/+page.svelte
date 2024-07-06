@@ -4,13 +4,40 @@
   import { page } from '$app/stores'
   import { goto } from '$app/navigation'
   import vocaInUsePreIntermediateData from '@/db/voca-in-use-pre-intermediate.json'
+	import { onMount } from 'svelte';
+	import { TouchSwipeCard } from '@/lib/touch-swipe';
 
   const unit = vocaInUsePreIntermediateData.find(u => u.name === $page.params.slug)
   
   let currentIdx = $state(0)
   let sliderWrapper = $state(null)
-  let sliderWidth = $derived(sliderWrapper?.scrollWidth + (24 * 2))
+  let spaceX = 24 * 2
+  let sliderWidth = $derived(sliderWrapper?.scrollWidth + spaceX)
   let cardWidth = $derived(sliderWrapper?.children?.[0].offsetWidth)
+  let hasPrevious = $derived(currentIdx > 0)
+  let hasNext = $derived(currentIdx != unit.words.length - 1)
+
+  onMount(() => {
+    const touchSwipeCard = new TouchSwipeCard(sliderWrapper);
+    touchSwipeCard.onSwipeLeft = onSwipeLeft
+    touchSwipeCard.onSwipeRight = onSwipeRight
+  })
+
+  function onSwipeLeft() {
+    if (!hasNext) {
+      return
+    }
+    currentIdx += 1
+    sliderWrapper.style.transform = `translate3d(-${currentIdx * cardWidth}px, 0, 0px)`
+  }
+
+  function onSwipeRight() {
+    if (!hasPrevious) {
+      return
+    }
+    currentIdx -= 1
+    sliderWrapper.style.transform = `translate3d(-${currentIdx * cardWidth}px, 0, 0px)`
+  }
 
   function getPronunciationAudio(word) {
   let audio = null;
@@ -64,7 +91,10 @@
   >
     {#each unit?.words as w}
       {@const playsound = getPronunciationAudio(w.word)}
-      <div class="shrink-0 relative z-10 flex flex-col gap-1 rounded-xl bg-white shadow-sm p-6 min-h-96" style="width: calc(100vw - 24px * 2);">
+      <div
+        class="shrink-0 relative z-10 flex flex-col gap-1 rounded-xl bg-white shadow-sm p-6 min-h-96"
+        style="width: min(calc(100vw - {spaceX}px), calc(576px - {spaceX}px));"
+      >
         <div class="flex flex-col w-full">
           <div class="font-wide text-3xl leading-none underline flex items-center space-x-3">
             <p>{w.word}</p>
@@ -103,11 +133,8 @@
   <div class="px-6 flex items-center justify-between w-full mt-auto">
     <button
       class="w-8 inline-flex items-center justify-center disabled:opacity-40 disabled:pointer-events-none"
-      onclick={() => {
-        currentIdx -= 1
-        sliderWrapper.style.transform = `translate3d(-${currentIdx * cardWidth}px, 0, 0px)`
-      }}
-      disabled={currentIdx === 0}
+      onclick={onSwipeRight}
+      disabled={!hasPrevious}
     >
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5"><path d="M7.82843 10.9999H20V12.9999H7.82843L13.1924 18.3638L11.7782 19.778L4 11.9999L11.7782 4.22168L13.1924 5.63589L7.82843 10.9999Z"></path></svg>
     </button>
@@ -118,11 +145,8 @@
     </div>
     <button
       class="w-8 inline-flex items-center justify-center disabled:opacity-40 disabled:pointer-events-none"
-      onclick={() => {
-        currentIdx += 1
-        sliderWrapper.style.transform = `translate3d(-${currentIdx * cardWidth}px, 0, 0px)`
-      }}
-      disabled={currentIdx === unit.words.length - 1}
+      onclick={onSwipeLeft}
+      disabled={!hasNext}
     >
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5"><path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path></svg>
     </button>
