@@ -1,14 +1,15 @@
 <script>
-	import { goto } from '$app/navigation';
-  import { page } from '$app/stores';
   import vocaInUsePreIntermediateData from '@/db/voca-in-use-pre-intermediate.json'
+
+  import { page } from '$app/stores';
+	import { back } from '@/util/route';
 </script>
 
 <div class="py-8 px-6">
   <div>
     <button
       class="w-8 inline-flex items-center justify-center"
-      onclick={() => goto('/')}
+      onclick={back('/')}
     >
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6"><path d="M10.8284 12.0007L15.7782 16.9504L14.364 18.3646L8 12.0007L14.364 5.63672L15.7782 7.05093L10.8284 12.0007Z"></path></svg>
     </button>

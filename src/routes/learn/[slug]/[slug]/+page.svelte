@@ -1,11 +1,12 @@
 <script>
   // @ts-nocheck
 
-  import { page } from '$app/stores'
-  import { goto } from '$app/navigation'
   import vocaInUsePreIntermediateData from '@/db/voca-in-use-pre-intermediate.json'
+
+  import { page } from '$app/stores'
 	import { onMount } from 'svelte';
 	import { TouchSwipeCard } from '@/lib/touch-swipe';
+	import { back } from '@/util/route';
 
   const unit = vocaInUsePreIntermediateData.find(u => u.name === $page.params.slug)
   
@@ -76,9 +77,7 @@
   <div class="px-6 self-start">
     <button
       class="w-8 inline-flex items-center justify-center"
-      onclick={() => {
-        goto($page.url.pathname.split('/').slice(0, -1).join('/'))
-      }}
+      onclick={back($page.url.pathname.split('/').slice(0, -1).join('/'))}
     >
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6"><path d="M10.8284 12.0007L15.7782 16.9504L14.364 18.3646L8 12.0007L14.364 5.63672L15.7782 7.05093L10.8284 12.0007Z"></path></svg>
     </button>
