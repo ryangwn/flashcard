@@ -18,7 +18,13 @@
 
   @keyframes slide-from-right {
     from {
-      transform: translate3d(100%, 0, 0);
+      transform: translate3d(30px, 0, 0);
+    }
+  }
+
+  @keyframes slide-from-left {
+    from {
+      transform: translate3d(-30px, 0, 0);
     }
   }
 
