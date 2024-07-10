@@ -47,5 +47,518 @@
     "words": [
       
     ]
+  },
+  {
+    "name": "Unit 6",
+    "topic": "The physical world",
+    "words": [
+      {
+        "word": "Cave",
+        "word_type": "noun",
+        "pronunciation": {
+          "text": "/keɪv/"
+        },
+        "vi_translate": "Hang động",
+        "word_definition": "A large underground chamber, typically of natural origin in rock.",
+        "examples": [
+          "The explorers discovered a new cave system in the mountains.",
+          "Ancient paintings were found on the walls of the cave."
+        ],
+        "synonyms": [
+          "Cavern",
+          "Grotto",
+          "Den"
+        ],
+        "opposites": [
+          "Peak",
+          "Summit"
+        ]
+      },
+      {
+        "word": "Canal",
+        "word_type": "noun",
+        "pronunciation": {
+          "text": "/kəˈnæl/"
+        },
+        "vi_translate": "Kênh đào",
+        "word_definition": "An artificial waterway constructed to allow the passage of boats or ships inland or to convey water for irrigation.",
+        "examples": [
+          "The Panama Canal connects the Atlantic and Pacific Oceans.",
+          "We took a leisurely boat ride along the canal."
+        ],
+        "synonyms": [
+          "Waterway",
+          "Channel",
+          "Aqueduct"
+        ],
+        "opposites": [
+          "Dam",
+          "Barrier"
+        ]
+      },
+      {
+        "word": "Falls",
+        "word_type": "noun",
+        "pronunciation": {
+          "text": "/fɔːlz/"
+        },
+        "vi_translate": "Thác nước",
+        "word_definition": "A cascade of water falling from a height, formed when a river or stream flows over a precipice or steep incline.",
+        "examples": [
+          "Niagara Falls is one of the most famous waterfalls in the world.",
+          "We could hear the roar of the falls from miles away."
+        ],
+        "synonyms": [
+          "Waterfall",
+          "Cascade",
+          "Cataract"
+        ],
+        "opposites": [
+          "Rapids",
+          "Still water"
+        ]
+      },
+      {
+        "word": "Surface",
+        "word_type": "noun",
+        "pronunciation": {
+          "text": "/ˈsɜːrfəs/"
+        },
+        "vi_translate": "Bề mặt",
+        "word_definition": "The outside part or uppermost layer of something.",
+        "examples": [
+          "The surface of the lake was calm and mirror-like.",
+          "Scientists are studying the surface of Mars for signs of water."
+        ],
+        "synonyms": [
+          "Exterior",
+          "Face",
+          "Outer layer"
+        ],
+        "opposites": [
+          "Interior",
+          "Core",
+          "Depth"
+        ]
+      },
+      {
+        "word": "Earth",
+        "word_type": "noun",
+        "pronunciation": {
+          "text": "/ɜːrθ/"
+        },
+        "vi_translate": "Trái đất",
+        "word_definition": "The planet on which we live; the world.",
+        "examples": [
+          "Earth is the third planet from the Sun.",
+          "Astronauts can see the Earth from space."
+        ],
+        "synonyms": [
+          "World",
+          "Globe",
+          "Planet"
+        ],
+        "opposites": [
+          "Space",
+          "Cosmos"
+        ]
+      },
+      {
+        "word": "Covered in",
+        "word_type": "phrasal verb",
+        "pronunciation": {
+          "text": "/ˈkʌvərd ɪn/"
+        },
+        "vi_translate": "Được bao phủ bởi",
+        "word_definition": "To be completely enveloped or concealed by something.",
+        "examples": [
+          "The mountains were covered in snow.",
+          "After the food fight, he was covered in ketchup."
+        ],
+        "synonyms": [
+          "Blanketed by",
+          "Coated with",
+          "Enveloped in"
+        ],
+        "opposites": [
+          "Bare",
+          "Exposed"
+        ]
+      },
+      {
+        "word": "In the world",
+        "word_type": "phrase",
+        "pronunciation": {
+          "text": "/ɪn ðə wɜːrld/"
+        },
+        "vi_translate": "Trên thế giới",
+        "word_definition": "Existing or occurring anywhere on Earth.",
+        "examples": [
+          "It's one of the tallest buildings in the world.",
+          "Who is the fastest runner in the world?"
+        ],
+        "synonyms": [
+          "Globally",
+          "Worldwide"
+        ],
+        "opposites": [
+          "Locally",
+          "Regionally"
+        ]
+      },
+      {
+        "word": "Temperature",
+        "word_type": "noun",
+        "pronunciation": {
+          "text": "/ˈtɛmprətʃər/"
+        },
+        "vi_translate": "Nhiệt độ",
+        "word_definition": "The degree or intensity of heat present in a substance or object.",
+        "examples": [
+          "The temperature in the desert can exceed 50 degrees Celsius.",
+          "The ideal room temperature for sleeping is around 18 degrees Celsius."
+        ],
+        "synonyms": [
+          "Heat",
+          "Warmth"
+        ],
+        "opposites": [
+          "Coldness",
+          "Chill"
+        ]
+      },
+      {
+        "word": "Over",
+        "word_type": "preposition",
+        "pronunciation": {
+          "text": "/ˈoʊvər/"
+        },
+        "vi_translate": "Trên, hơn",
+        "word_definition": "Extending directly upward from; above or higher than.",
+        "examples": [
+          "The temperature was over 30 degrees.",
+          "He jumped over the fence."
+        ],
+        "synonyms": [
+          "Above",
+          "Beyond"
+        ],
+        "opposites": [
+          "Under",
+          "Below"
+        ]
+      },
+      {
+        "word": "Degrees",
+        "word_type": "noun",
+        "pronunciation": {
+          "text": "/dɪˈɡriːz/"
+        },
+        "vi_translate": "Độ",
+        "word_definition": "A unit of measurement for temperature or angles.",
+        "examples": [
+          "Water boils at 100 degrees Celsius.",
+          "Turn 90 degrees to the right."
+        ],
+        "synonyms": [
+          "Units",
+          "Marks"
+        ],
+        "opposites": []
+      },
+      {
+        "word": "On Earth",
+        "word_type": "phrase",
+        "pronunciation": {
+          "text": "/ɒn ɜːrθ/"
+        },
+        "vi_translate": "Trên Trái Đất",
+        "word_definition": "Located or occurring on the planet Earth.",
+        "examples": [
+          "It's the deepest canyon on Earth.",
+          "How many species are there on Earth?"
+        ],
+        "synonyms": [
+          "Terrestrial",
+          "Earthly"
+        ],
+        "opposites": [
+          "In space",
+          "Extraterrestrial"
+        ]
+      },
+      {
+        "word": "Minus",
+        "word_type": "preposition",
+        "pronunciation": {
+          "text": "/ˈmaɪnəs/"
+        },
+        "vi_translate": "Âm",
+        "word_definition": "Less than zero; negative.",
+        "examples": [
+          "The temperature dropped to minus 10 degrees.",
+          "Five minus three equals two."
+        ],
+        "synonyms": [
+          "Negative",
+          "Below zero"
+        ],
+        "opposites": [
+          "Plus",
+          "Positive"
+        ]
+      },
+      {
+        "word": "Waterfall",
+        "word_type": "noun",
+        "pronunciation": {
+          "text": "/ˈwɔːtərfɔːl/"
+        },
+        "vi_translate": "Thác nước",
+        "word_definition": "A cascade of water falling from a height, formed when a river or stream flows over a precipice or steep incline.",
+        "examples": [
+          "Angel Falls in Venezuela is the world's highest uninterrupted waterfall.",
+          "The sound of the waterfall was deafening as we approached."
+        ],
+        "synonyms": [
+          "Cascade",
+          "Cataract",
+          "Falls"
+        ],
+        "opposites": [
+          "Still water",
+          "Lake"
+        ]
+      },
+      {
+        "word": "Deepest",
+        "word_type": "adjective",
+        "pronunciation": {
+          "text": "/ˈdiːpɪst/"
+        },
+        "vi_translate": "Sâu nhất",
+        "word_definition": "Extending far down from the top or surface; having the greatest distance from top to bottom.",
+        "examples": [
+          "The Mariana Trench is the deepest part of the world's oceans.",
+          "He dove into the deepest part of the pool."
+        ],
+        "synonyms": [
+          "Profoundest",
+          "Lowest"
+        ],
+        "opposites": [
+          "Shallowest",
+          "Most shallow"
+        ]
+      },
+      {
+        "word": "Ocean",
+        "word_type": "noun",
+        "pronunciation": {
+          "text": "/ˈoʊʃən/"
+        },
+        "vi_translate": "Đại dương",
+        "word_definition": "A very large expanse of sea, in particular each of the main areas into which the sea is divided geographically.",
+        "examples": [
+          "The Pacific Ocean is the largest and deepest of Earth's oceanic divisions.",
+          "We sailed across the Atlantic Ocean."
+        ],
+        "synonyms": [
+          "Sea",
+          "Deep",
+          "Marine"
+        ],
+        "opposites": [
+          "Land",
+          "Continent"
+        ]
+      },
+      {
+        "word": "Continent",
+        "word_type": "noun",
+        "pronunciation": {
+          "text": "/ˈkɒntɪnənt/"
+        },
+        "vi_translate": "Lục địa",
+        "word_definition": "Any of the world's main continuous expanses of land (Africa, Antarctica, Asia, Australia, Europe, North America, South America).",
+        "examples": [
+          "Asia is the largest continent by both area and population.",
+          "Australia is unique in being both a country and a continent."
+        ],
+        "synonyms": [
+          "Landmass",
+          "Mainland"
+        ],
+        "opposites": [
+          "Ocean",
+          "Sea"
+        ]
+      },
+      {
+        "word": "Consists of",
+        "word_type": "phrasal verb",
+        "pronunciation": {
+          "text": "/kənˈsɪsts əv/"
+        },
+        "vi_translate": "Bao gồm",
+        "word_definition": "To be composed or made up of.",
+        "examples": [
+          "The United Kingdom consists of four countries.",
+          "Water consists of hydrogen and oxygen."
+        ],
+        "synonyms": [
+          "Comprises",
+          "Is composed of"
+        ],
+        "opposites": []
+      },
+      {
+        "word": "Regions",
+        "word_type": "noun",
+        "pronunciation": {
+          "text": "/ˈriːdʒənz/"
+        },
+        "vi_translate": "Vùng, khu vực",
+        "word_definition": "An area, especially part of a country or the world having definable characteristics but not always fixed boundaries.",
+        "examples": [
+          "The Midwest is one of the major regions of the United States.",
+          "Different regions of the brain control different functions."
+        ],
+        "synonyms": [
+          "Areas",
+          "Zones",
+          "Districts"
+        ],
+        "opposites": []
+      },
+      {
+        "word": "Landscapes",
+        "word_type": "noun",
+        "pronunciation": {
+          "text": "/ˈlændskeɪps/"
+        },
+        "vi_translate": "Phong cảnh",
+        "word_definition": "All the visible features of an area of countryside or land, often considered in terms of their aesthetic appeal.",
+        "examples": [
+          "The rolling hills and green valleys created beautiful landscapes.",
+          "The artist specialized in painting desert landscapes."
+        ],
+        "synonyms": [
+          "Scenery",
+          "Vistas",
+          "Terrain"
+        ],
+        "opposites": [
+          "Cityscapes",
+          "Urban areas"
+        ]
+      },
+      {
+        "word": "Contrasts",
+        "word_type": "noun",
+        "pronunciation": {
+          "text": "/ˈkɒntrɑːsts/"
+        },
+        "vi_translate": "Sự tương phản",
+        "word_definition": "The state of being strikingly different from something else in juxtaposition or close association.",
+        "examples": [
+          "The contrasts between urban and rural life are striking.",
+          "Her painting used strong contrasts of light and dark."
+        ],
+        "synonyms": [
+          "Differences",
+          "Distinctions"
+        ],
+        "opposites": [
+          "Similarities",
+          "Likenesses"
+        ]
+      },
+      {
+        "word": "Climate",
+        "word_type": "noun",
+        "pronunciation": {
+          "text": "/ˈklaɪmət/"
+        },
+        "vi_translate": "Khí hậu",
+        "word_definition": "The weather conditions prevailing in an area in general or over a long period.",
+        "examples": [
+          "The Mediterranean climate is characterized by mild, wet winters and hot, dry summers.",
+          "Climate change is affecting weather patterns worldwide."
+        ],
+        "synonyms": [
+          "Weather",
+          "Atmospheric conditions"
+        ],
+        "opposites": [
+          "Weather (short-term)",
+          "Microclimate"
+        ]
+      },
+      {
+        "word": "Distance",
+        "word_type": "noun",
+        "pronunciation": {
+          "text": "/ˈdɪstəns/"
+        },
+        "vi_translate": "Khoảng cách",
+        "word_definition": "The amount of space between two things or points.",
+        "examples": [
+          "The distance between New York and Los Angeles is about 2,789 miles.",
+          "He could see a ship in the distance."
+        ],
+        "synonyms": [
+          "Length",
+          "Gap",
+          "Span"
+        ],
+        "opposites": [
+          "Proximity",
+          "Nearness"
+        ]
+      },
+      {
+        "word": "Planet",
+        "word_type": "noun",
+        "pronunciation": {
+          "text": "/ˈplænɪt/"
+        },
+        "vi_translate": "Hành tinh",
+        "word_definition": "A celestial body moving in an elliptical orbit around a star.",
+        "examples": [
+          "Mars is often called the Red Planet.",
+          "Jupiter is the largest planet in our solar system."
+        ],
+        "synonyms": [
+          "Celestial body",
+          "World"
+        ],
+        "opposites": [
+          "Star",
+          "Asteroid"
+        ]
+      },
+      {
+        "word": "Rainforest",
+        "word_type": "noun",
+        "pronunciation": {
+          "text": "/ˈreɪnfɒrɪst/"
+        },
+        "vi_translate": "Rừng mưa nhiệt đới",
+        "word_definition": "A dense forest in a tropical region with high annual rainfall.",
+        "examples": [
+          "The Amazon rainforest is often called the 'lungs of the Earth'.",
+          "Many unique species can only be found in rainforests."
+        ],
+        "synonyms": [
+          "Jungle",
+          "Tropical forest"
+        ],
+        "opposites": [
+          "Desert",
+          "Tundra"
+        ]
+      }
+    ]
   }
 ]
