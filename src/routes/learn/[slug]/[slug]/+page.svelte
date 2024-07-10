@@ -13,7 +13,7 @@
   let sliderWrapper = $state(null)
   let spaceX = 24 * 2
   let sliderWidth = $derived(sliderWrapper?.scrollWidth + spaceX)
-  let cardWidth = $derived(sliderWrapper?.children?.[0].offsetWidth)
+  let cardWidth = $derived(sliderWrapper?.children?.[0].offsetWidth + 12) // add space-x card
   let hasPrevious = $derived(currentIdx > 0)
   let hasNext = $derived(currentIdx != unit.words.length - 1)
 
@@ -112,7 +112,7 @@
               </svg>
             </button>
           </div>
-          <p class="mt-2 text-lg text-gray-700">{w.pronuncation.text}</p>
+          <p class="mt-2 text-lg text-gray-700">{w.pronunciation.text}</p>
         </div>
         <div class="mt-4 flex-1 flex flex-col text-left leading-5">
           <p class="font-medium text-stone-500">{w.vi_translate}</p>
