@@ -20,7 +20,7 @@
   <div class="grid grid-cols-2 gap-2 mt-6">
     {#each vocaInUsePreIntermediateData as unit}
       <a href="{$page.url.pathname}/{unit.name}">
-        <div class="relative z-10 flex flex-col gap-1 rounded-lg p-6 bg-white text-center text-dark h-48">
+        <div class="relative z-10 flex flex-col gap-1 rounded-lg p-4 bg-white text-center text-dark h-48">
           <div class="flex w-full items-center justify-between">
             <span class="font-wide text-2xl font-medium leading-none">{unit.name}</span>
           </div>
