@@ -560,5 +560,693 @@
         ]
       }
     ]
+  },
+  {
+    "name": "Unit 7",
+    "topic": "Weather",
+    "words": [
+      {
+        "word": "fog",
+        "word_type": "noun",
+        "pronuncation": {
+          "text": "/fɒɡ/"
+        },
+        "vi_translate": "sương mù",
+        "word_definition": "A thick cloud of tiny water droplets suspended in the atmosphere at or near the earth's surface that obscures or restricts visibility.",
+        "examples": [
+          "The dense fog made it difficult to see the road ahead.",
+          "We got lost in the fog while hiking in the mountains."
+        ],
+        "synonyms": [
+          "mist",
+          "haze",
+          "vapor"
+        ],
+        "opposites": [
+          "clarity",
+          "visibility"
+        ]
+      },
+      {
+        "word": "foggy",
+        "word_type": "adjective",
+        "pronuncation": {
+          "text": "/ˈfɒɡi/"
+        },
+        "vi_translate": "có sương mù",
+        "word_definition": "Filled with or characterized by fog; misty.",
+        "examples": [
+          "It was a foggy morning, and we could barely see the street signs.",
+          "The foggy conditions made driving dangerous."
+        ],
+        "synonyms": [
+          "misty",
+          "hazy",
+          "murky"
+        ],
+        "opposites": [
+          "clear",
+          "sunny"
+        ]
+      },
+      {
+        "word": "cloud",
+        "word_type": "noun",
+        "pronuncation": {
+          "text": "/klaʊd/"
+        },
+        "vi_translate": "đám mây",
+        "word_definition": "A visible mass of condensed water vapor floating in the atmosphere, typically high above the ground.",
+        "examples": [
+          "The sky was filled with fluffy white clouds.",
+          "Dark storm clouds gathered on the horizon."
+        ],
+        "synonyms": [
+          "vapor",
+          "mist",
+          "haze"
+        ],
+        "opposites": [
+          "clear sky",
+          "sunshine"
+        ]
+      },
+      {
+        "word": "cloudy",
+        "word_type": "adjective",
+        "pronuncation": {
+          "text": "/ˈklaʊdi/"
+        },
+        "vi_translate": "nhiều mây",
+        "word_definition": "Full of or covered with clouds; overcast.",
+        "examples": [
+          "It's been cloudy all day, with no sign of the sun.",
+          "The cloudy weather made it perfect for indoor activities."
+        ],
+        "synonyms": [
+          "overcast",
+          "gloomy",
+          "murky"
+        ],
+        "opposites": [
+          "clear",
+          "sunny"
+        ]
+      },
+      {
+        "word": "cold",
+        "word_type": "adjective",
+        "pronuncation": {
+          "text": "/kəʊld/"
+        },
+        "vi_translate": "lạnh",
+        "word_definition": "Of or at a low or relatively low temperature, especially when compared with the human body.",
+        "examples": [
+          "It's a cold winter day, so don't forget your coat.",
+          "The water in the lake was too cold for swimming."
+        ],
+        "synonyms": [
+          "chilly",
+          "frigid",
+          "frosty"
+        ],
+        "opposites": [
+          "hot",
+          "warm"
+        ]
+      },
+      {
+        "word": "ice",
+        "word_type": "noun",
+        "pronuncation": {
+          "text": "/aɪs/"
+        },
+        "vi_translate": "băng",
+        "word_definition": "Water frozen into a solid state.",
+        "examples": [
+          "The lake was covered with a thick layer of ice.",
+          "Be careful walking on the icy sidewalk."
+        ],
+        "synonyms": [
+          "frost",
+          "rime",
+          "sleet"
+        ],
+        "opposites": [
+          "water",
+          "liquid"
+        ]
+      },
+      {
+        "word": "icy",
+        "word_type": "adjective",
+        "pronuncation": {
+          "text": "/ˈaɪsi/"
+        },
+        "vi_translate": "băng giá",
+        "word_definition": "Covered with or consisting of ice; very cold.",
+        "examples": [
+          "The icy roads made driving dangerous.",
+          "An icy wind blew through the streets."
+        ],
+        "synonyms": [
+          "frosty",
+          "frozen",
+          "glacial"
+        ],
+        "opposites": [
+          "warm",
+          "melted"
+        ]
+      },
+      {
+        "word": "sun",
+        "word_type": "noun",
+        "pronuncation": {
+          "text": "/sʌn/"
+        },
+        "vi_translate": "mặt trời",
+        "word_definition": "The star around which the earth orbits and which provides light and heat for the earth.",
+        "examples": [
+          "The sun rose early in the summer morning.",
+          "We enjoyed basking in the warm sun at the beach."
+        ],
+        "synonyms": [
+          "solar orb",
+          "daystar",
+          "Sol"
+        ],
+        "opposites": [
+          "moon",
+          "darkness"
+        ]
+      },
+      {
+        "word": "sunny",
+        "word_type": "adjective",
+        "pronuncation": {
+          "text": "/ˈsʌni/"
+        },
+        "vi_translate": "nắng",
+        "word_definition": "Bright with sunlight.",
+        "examples": [
+          "It's a beautiful sunny day, perfect for a picnic.",
+          "The forecast predicts sunny weather all week."
+        ],
+        "synonyms": [
+          "bright",
+          "clear",
+          "radiant"
+        ],
+        "opposites": [
+          "cloudy",
+          "overcast"
+        ]
+      },
+      {
+        "word": "wind",
+        "word_type": "noun",
+        "pronuncation": {
+          "text": "/wɪnd/"
+        },
+        "vi_translate": "gió",
+        "word_definition": "The natural movement of air, especially in the form of a current of air blowing from a particular direction.",
+        "examples": [
+          "A strong wind blew the leaves off the trees.",
+          "The wind howled through the night."
+        ],
+        "synonyms": [
+          "breeze",
+          "gust",
+          "draft"
+        ],
+        "opposites": [
+          "calm",
+          "stillness"
+        ]
+      },
+      {
+        "word": "windy",
+        "word_type": "adjective",
+        "pronuncation": {
+          "text": "/ˈwɪndi/"
+        },
+        "vi_translate": "có gió",
+        "word_definition": "Characterized by or exposed to strong winds.",
+        "examples": [
+          "It's a windy day, so hold onto your hat!",
+          "The windy conditions made it difficult to light the campfire."
+        ],
+        "synonyms": [
+          "blustery",
+          "gusty",
+          "breezy"
+        ],
+        "opposites": [
+          "calm",
+          "still"
+        ]
+      },
+      {
+        "word": "snow",
+        "word_type": "noun",
+        "pronuncation": {
+          "text": "/snəʊ/"
+        },
+        "vi_translate": "tuyết",
+        "word_definition": "Atmospheric water vapor frozen into ice crystals and falling in light white flakes or lying on the ground as a white layer.",
+        "examples": [
+          "The children were excited to see the first snow of winter.",
+          "We went skiing in the fresh powder snow."
+        ],
+        "synonyms": [
+          "snowfall",
+          "snowflakes",
+          "powder"
+        ],
+        "opposites": [
+          "rain",
+          "sleet"
+        ]
+      },
+      {
+        "word": "snowy",
+        "word_type": "adjective",
+        "pronuncation": {
+          "text": "/ˈsnəʊi/"
+        },
+        "vi_translate": "có tuyết",
+        "word_definition": "Covered with snow or characterized by snow.",
+        "examples": [
+          "The snowy landscape looked like a winter wonderland.",
+          "We drove carefully on the snowy roads."
+        ],
+        "synonyms": [
+          "snow-covered",
+          "wintry",
+          "frosty"
+        ],
+        "opposites": [
+          "snowless",
+          "bare"
+        ]
+      },
+      {
+        "word": "rain",
+        "word_type": "noun",
+        "pronuncation": {
+          "text": "/reɪn/"
+        },
+        "vi_translate": "mưa",
+        "word_definition": "The condensed moisture of the atmosphere falling visibly in separate drops.",
+        "examples": [
+          "The rain poured down heavily all afternoon.",
+          "We need some rain for the crops to grow."
+        ],
+        "synonyms": [
+          "rainfall",
+          "precipitation",
+          "drizzle"
+        ],
+        "opposites": [
+          "drought",
+          "dryness"
+        ]
+      },
+      {
+        "word": "wet",
+        "word_type": "adjective",
+        "pronuncation": {
+          "text": "/wet/"
+        },
+        "vi_translate": "ướt",
+        "word_definition": "Covered or saturated with water or another liquid.",
+        "examples": [
+          "I got caught in the rain and my clothes are all wet.",
+          "The wet grass sparkled in the morning sunlight."
+        ],
+        "synonyms": [
+          "damp",
+          "moist",
+          "soaked"
+        ],
+        "opposites": [
+          "dry",
+          "arid"
+        ]
+      },
+      {
+        "word": "thick fog",
+        "word_type": "noun phrase",
+        "pronuncation": {
+          "text": "/θɪk fɒɡ/"
+        },
+        "vi_translate": "sương mù dày đặc",
+        "word_definition": "A dense, opaque mist that significantly reduces visibility.",
+        "examples": [
+          "The thick fog made it impossible to see more than a few feet ahead.",
+          "Flights were delayed due to the thick fog covering the airport."
+        ],
+        "synonyms": [
+          "dense mist",
+          "heavy haze",
+          "pea soup"
+        ],
+        "opposites": [
+          "clear visibility",
+          "transparent air"
+        ]
+      },
+      {
+        "word": "heavy rain",
+        "word_type": "noun phrase",
+        "pronuncation": {
+          "text": "/ˈhevi reɪn/"
+        },
+        "vi_translate": "mưa lớn",
+        "word_definition": "Intense rainfall occurring in a short period of time or over an extended duration.",
+        "examples": [
+          "The heavy rain caused flooding in low-lying areas.",
+          "We had to cancel the outdoor event due to heavy rain."
+        ],
+        "synonyms": [
+          "downpour",
+          "deluge",
+          "torrential rain"
+        ],
+        "opposites": [
+          "light drizzle",
+          "sprinkle"
+        ]
+      },
+      {
+        "word": "strong wind",
+        "word_type": "noun phrase",
+        "pronuncation": {
+          "text": "/strɒŋ wɪnd/"
+        },
+        "vi_translate": "gió mạnh",
+        "word_definition": "A powerful current of air moving at high speed.",
+        "examples": [
+          "The strong wind knocked down several trees in the neighborhood.",
+          "Sailors had to be cautious due to the strong wind on the open sea."
+        ],
+        "synonyms": [
+          "gale",
+          "powerful breeze",
+          "high wind"
+        ],
+        "opposites": [
+          "light breeze",
+          "calm air"
+        ]
+      },
+      {
+        "word": "blown",
+        "word_type": "verb (past participle)",
+        "pronuncation": {
+          "text": "/bləʊn/"
+        },
+        "vi_translate": "bị thổi",
+        "word_definition": "Moved or carried by the wind or air currents.",
+        "examples": [
+          "The leaves were blown across the yard by the autumn wind.",
+          "Her hat was blown off her head by the strong gust."
+        ],
+        "synonyms": [
+          "gusted",
+          "wafted",
+          "swept"
+        ],
+        "opposites": [
+          "still",
+          "stationary"
+        ]
+      },
+      {
+        "word": "sky",
+        "word_type": "noun",
+        "pronuncation": {
+          "text": "/skaɪ/"
+        },
+        "vi_translate": "bầu trời",
+        "word_definition": "The region of the atmosphere and outer space seen from the earth.",
+        "examples": [
+          "The sky was a brilliant blue on the clear summer day.",
+          "We watched the colorful sunset paint the sky."
+        ],
+        "synonyms": [
+          "heavens",
+          "firmament",
+          "atmosphere"
+        ],
+        "opposites": [
+          "ground",
+          "earth"
+        ]
+      },
+      {
+        "word": "clear",
+        "word_type": "adjective",
+        "pronuncation": {
+          "text": "/klɪər/"
+        },
+        "vi_translate": "trong sáng, quang đãng",
+        "word_definition": "Free from clouds, mist, or haze; bright and transparent.",
+        "examples": [
+          "The sky was clear, allowing us to see the stars.",
+          "After the storm, the air was fresh and the sky was clear."
+        ],
+        "synonyms": [
+          "cloudless",
+          "bright",
+          "unclouded"
+        ],
+        "opposites": [
+          "cloudy",
+          "overcast"
+        ]
+      },
+      {
+        "word": "extremely cold",
+        "word_type": "adjective phrase",
+        "pronuncation": {
+          "text": "/ɪkˈstriːmli kəʊld/"
+        },
+        "vi_translate": "cực kỳ lạnh",
+        "word_definition": "Having a temperature that is very far below normal or comfortable levels.",
+        "examples": [
+          "It was extremely cold in Antarctica, with temperatures well below freezing.",
+          "The extremely cold weather forced us to stay indoors."
+        ],
+        "synonyms": [
+          "frigid",
+          "freezing",
+          "icy cold"
+        ],
+        "opposites": [
+          "extremely hot",
+          "scorching"
+        ]
+      },
+      {
+        "word": "pour",
+        "word_type": "verb",
+        "pronuncation": {
+          "text": "/pɔːr/"
+        },
+        "vi_translate": "đổ, rót",
+        "word_definition": "To flow rapidly in a steady stream, especially of rain.",
+        "examples": [
+          "The rain continued to pour throughout the night.",
+          "Water poured from the broken pipe, flooding the basement."
+        ],
+        "synonyms": [
+          "stream",
+          "gush",
+          "flood"
+        ],
+        "opposites": [
+          "trickle",
+          "drip"
+        ]
+      },
+      {
+        "word": "pour with rain",
+        "word_type": "phrase",
+        "pronuncation": {
+          "text": "/pɔːr wɪð reɪn/"
+        },
+        "vi_translate": "mưa như trút nước",
+        "word_definition": "To rain very heavily.",
+        "examples": [
+          "It's pouring with rain outside; we'd better stay in.",
+          "The forecast says it will pour with rain all weekend."
+        ],
+        "synonyms": [
+          "rain heavily",
+          "rain cats and dogs",
+          "bucket down"
+        ],
+        "opposites": [
+          "drizzle",
+          "sprinkle"
+        ]
+      },
+      {
+        "word": "shower",
+        "word_type": "noun",
+        "pronuncation": {
+          "text": "/ˈʃaʊər/"
+        },
+        "vi_translate": "cơn mưa rào",
+        "word_definition": "A brief and usually light fall of rain, hail, sleet, or snow.",
+        "examples": [
+          "We got caught in a brief shower while walking in the park.",
+          "The weather forecast predicted scattered showers throughout the day."
+        ],
+        "synonyms": [
+          "sprinkle",
+          "drizzle",
+          "light rain"
+        ],
+        "opposites": [
+          "downpour",
+          "drought"
+        ]
+      },
+      {
+        "word": "storm",
+        "word_type": "noun",
+        "pronuncation": {
+          "text": "/stɔːrm/"
+        },
+        "vi_translate": "bão",
+        "word_definition": "A violent disturbance of the atmosphere with strong winds and usually rain, thunder, lightning, or snow.",
+        "examples": [
+          "A severe storm knocked out power in several neighborhoods.",
+          "The fishermen hurried back to port as the storm approached."
+        ],
+        "synonyms": [
+          "tempest",
+          "squall",
+          "gale"
+        ],
+        "opposites": [
+          "calm",
+          "fair weather"
+        ]
+      },
+      {
+        "word": "thunderstorm",
+        "word_type": "noun",
+        "pronuncation": {
+          "text": "/ˈθʌndərstɔːrm/"
+        },
+        "vi_translate": "cơn giông",
+        "word_definition": "A storm with thunder and lightning and typically also heavy rain or hail.",
+        "examples": [
+          "The thunderstorm lit up the night sky with flashes of lightning.",
+          "Children often fear the loud noises during a thunderstorm."
+        ],
+        "synonyms": [
+          "electrical storm",
+          "thunder shower",
+          "storm"
+        ],
+        "opposites": [
+          "clear weather",
+          "sunshine"
+        ]
+      },
+      {
+        "word": "humid",
+        "word_type": "adjective",
+        "pronuncation": {
+          "text": "/ˈhjuːmɪd/"
+        },
+        "vi_translate": "ẩm ướt",
+        "word_definition": "Marked by a relatively high level of water vapor in the atmosphere.",
+        "examples": [
+          "The air was hot and humid, making it uncomfortable to be outside.",
+          "Tropical regions often have a humid climate year-round."
+        ],
+        "synonyms": [
+          "muggy",
+          "sticky",
+          "damp"
+        ],
+        "opposites": [
+          "dry",
+          "arid"
+        ]
+      },
+      {
+        "word": "thunder",
+        "word_type": "noun",
+        "pronuncation": {
+          "text": "/ˈθʌndər/"
+        },
+        "vi_translate": "sấm",
+        "word_definition": "The loud rumbling or crashing noise heard after a lightning flash due to the expansion of rapidly heated air.",
+        "examples": [
+          "The thunder was so loud it shook the windows.",
+          "We could hear the distant rumble of thunder as the storm approached."
+        ],
+        "synonyms": [
+          "rumble",
+          "boom",
+          "clap"
+        ],
+        "opposites": [
+          "silence",
+          "quiet"
+        ]
+      },
+      {
+        "word": "lightning",
+        "word_type": "noun",
+        "pronuncation": {
+          "text": "/ˈlaɪtnɪŋ/"
+        },
+        "vi_translate": "sét",
+        "word_definition": "The occurrence of a natural electrical discharge of very short duration and high voltage between a cloud and the ground or within a cloud.",
+        "examples": [
+          "A flash of lightning illuminated the dark sky.",
+          "The tree was struck by lightning during the storm."
+        ],
+        "synonyms": [
+          "flash",
+          "bolt",
+          "electrical discharge"
+        ],
+        "opposites": [
+          "darkness",
+          "calm"
+        ]
+      },
+      {
+        "word": "mild",
+        "word_type": "adjective",
+        "pronuncation": {
+          "text": "/maɪld/"
+        },
+        "vi_translate": "ôn hòa, dịu nhẹ",
+        "word_definition": "Gentle and not extreme, especially in terms of weather or temperature.",
+        "examples": [
+          "We had a mild winter this year with very little snow.",
+          "The medicine has some mild side effects, but nothing serious."
+        ],
+        "synonyms": [
+          "moderate",
+          "temperate",
+          "pleasant"
+        ],
+        "opposites": [
+          "severe",
+          "extreme"
+        ]
+      }
+    ]
   }
 ]

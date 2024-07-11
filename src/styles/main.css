@@ -25,14 +25,14 @@
 }
 
 ::view-transition-old(root) {
-  animation: 400ms cubic-bezier(0.2, 0.0, 0, 1.0) both fade-out;
+  animation: 400ms ease both fade-out;
 }
 
 .back::view-transition-new(root) {
-  animation: 400ms cubic-bezier(0.2, 0.0, 0, 1.0) both slide-from-left;
+  animation: 400ms ease both slide-from-left;
 }
 ::view-transition-new(root) {
-  animation: 400ms cubic-bezier(0.2, 0.0, 0, 1.0) both slide-from-right;
+  animation: 400ms ease both slide-from-right;
 }
 
 @keyframes fade-out {

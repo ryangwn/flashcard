@@ -86,7 +86,7 @@
   <div
     bind:this={sliderWrapper}
     class="mt-auto flex flex-nowrap space-x-3 px-6"
-    style="transition: transform 500ms ease-out; width: {sliderWidth}px"
+    style="transition: transform 500ms ease; width: {sliderWidth}px"
   >
     {#each unit?.words as w}
       {@const playsound = getPronunciationAudio(w.word)}
