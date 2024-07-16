@@ -1,0 +1,297 @@
+[
+  {
+    "name": "Unit 1",
+    "topic": "Naturally and Repeatedly",
+    "words": [
+      {
+        "word": "vitally important",
+        "word_type": "adjective phrase",
+        "pronunciation": {
+          "text": "/ˈvaɪtəli ɪmˈpɔːrtənt/"
+        },
+        "vi_translate": "cực kỳ quan trọng",
+        "word_definition": "Absolutely necessary or essential; crucial",
+        "unacademic": "really important",
+        "examples": [
+          "Getting enough sleep is vitally important for your health.",
+          "It is vitally important to follow safety procedures in the laboratory."
+        ],
+        "synonyms": [
+          "crucial",
+          "essential",
+          "critical",
+          "indispensable"
+        ],
+        "opposites": [
+          "insignificant",
+          "trivial",
+          "unimportant"
+        ]
+      },
+      {
+        "word": "do not take them lightly",
+        "word_type": "phrase",
+        "pronunciation": {
+          "text": "/duː nɒt teɪk ðɛm ˈlaɪtli/"
+        },
+        "vi_translate": "đừng xem thường",
+        "word_definition": "To treat something with serious consideration and respect",
+        "unacademic": "take seriously",
+        "examples": [
+          "These warnings are serious, so do not take them lightly.",
+          "The responsibilities of this job are significant, so do not take them lightly."
+        ],
+        "synonyms": [
+          "treat seriously",
+          "give due consideration",
+          "take seriously"
+        ],
+        "opposites": [
+          "disregard",
+          "ignore",
+          "overlook"
+        ]
+      },
+      {
+        "word": "every so often",
+        "word_type": "adverb phrase",
+        "pronunciation": {
+          "text": "/ˈevri səʊ ˈɒfən/"
+        },
+        "vi_translate": "thỉnh thoảng",
+        "word_definition": "Occasionally; from time to time; at intervals",
+        "unacademic": "sometimes",
+        "examples": [
+          "Every so often, we like to try a new restaurant in town.",
+          "The old clock chimes every so often, but not regularly."
+        ],
+        "synonyms": [
+          "occasionally",
+          "periodically",
+          "from time to time"
+        ],
+        "opposites": [
+          "constantly",
+          "always",
+          "never"
+        ]
+      },
+      {
+        "word": "coupled with",
+        "word_type": "phrasal verb",
+        "pronunciation": {
+          "text": "/ˈkʌpəld wɪð/"
+        },
+        "vi_translate": "kết hợp với",
+        "word_definition": "Combined or paired with; in addition to",
+        "unacademic": "together with",
+        "examples": [
+          "His natural talent, coupled with years of practice, made him an exceptional musician.",
+          "The heavy rain, coupled with strong winds, caused significant damage to the crops."
+        ],
+        "synonyms": [
+          "combined with",
+          "along with",
+          "together with"
+        ],
+        "opposites": [
+          "separated from",
+          "divorced from",
+          "disconnected from"
+        ]
+      },
+      {
+        "word": "produce desirable learning outcomes",
+        "word_type": "phrase",
+        "pronunciation": {
+          "text": "/prəˈdjuːs dɪˈzaɪərəbl ˈlɜːnɪŋ ˈaʊtkʌmz/"
+        },
+        "vi_translate": "tạo ra kết quả học tập mong muốn",
+        "word_definition": "To achieve favorable educational results or goals",
+        "unacademic": "help students learn well",
+        "examples": [
+          "The new teaching method aims to produce desirable learning outcomes for all students.",
+          "Regular assessments help educators ensure they produce desirable learning outcomes."
+        ],
+        "synonyms": [
+          "achieve educational goals",
+          "attain learning objectives",
+          "yield positive academic results"
+        ],
+        "opposites": [
+          "fail to meet educational standards",
+          "produce poor learning results",
+          "hinder academic progress"
+        ]
+      },
+      {
+        "word": "familiarize yourself",
+        "word_type": "phrasal verb",
+        "pronunciation": {
+          "text": "/fəˈmɪliəraɪz jɔːˈself/"
+        },
+        "vi_translate": "làm quen với",
+        "word_definition": "To gain knowledge of or become acquainted with something",
+        "unacademic": "get to know",
+        "examples": [
+          "Please familiarize yourself with the emergency procedures before starting work.",
+          "It's important to familiarize yourself with the local customs when visiting a new country."
+        ],
+        "synonyms": [
+          "acquaint yourself",
+          "get to know",
+          "become familiar with"
+        ],
+        "opposites": [
+          "remain ignorant of",
+          "stay unfamiliar with",
+          "avoid learning about"
+        ]
+      },
+      {
+        "word": "a myriad of",
+        "word_type": "noun phrase",
+        "pronunciation": {
+          "text": "/ə ˈmɪriəd əv/"
+        },
+        "vi_translate": "vô số",
+        "word_definition": "A countless or extremely large number of people or things",
+        "unacademic": "lots of",
+        "examples": [
+          "The night sky was filled with a myriad of stars.",
+          "The museum offers a myriad of exhibits on various historical periods."
+        ],
+        "synonyms": [
+          "multitude",
+          "plethora",
+          "abundance"
+        ],
+        "opposites": [
+          "scarcity",
+          "handful",
+          "dearth"
+        ]
+      },
+      {
+        "word": "unprecedented",
+        "word_type": "adjective",
+        "pronunciation": {
+          "text": "/ʌnˈpresɪdentɪd/"
+        },
+        "vi_translate": "chưa từng có",
+        "word_definition": "Never done or known before; without previous example",
+        "unacademic": "never happened before",
+        "examples": [
+          "The company experienced unprecedented growth in the last quarter.",
+          "The global pandemic led to unprecedented changes in work and social habits."
+        ],
+        "synonyms": [
+          "unparalleled",
+          "unique",
+          "exceptional"
+        ],
+        "opposites": [
+          "typical",
+          "common",
+          "usual"
+        ]
+      },
+      {
+        "word": "expertise",
+        "word_type": "noun",
+        "pronunciation": {
+          "text": "/ˌekspɜːrˈtiːz/"
+        },
+        "vi_translate": "chuyên môn",
+        "word_definition": "Expert skill or knowledge in a particular field",
+        "unacademic": "special skill",
+        "examples": [
+          "Her expertise in cybersecurity made her a valuable asset to the company.",
+          "We sought his expertise in ancient languages to decipher the old manuscript."
+        ],
+        "synonyms": [
+          "proficiency",
+          "mastery",
+          "specialization"
+        ],
+        "opposites": [
+          "ignorance",
+          "inexperience",
+          "amateurism"
+        ]
+      },
+      {
+        "word": "dedicated to",
+        "word_type": "adjective phrase",
+        "pronunciation": {
+          "text": "/ˈdedɪkeɪtɪd tuː/"
+        },
+        "vi_translate": "tận tụy với",
+        "word_definition": "Devoted to a task, purpose, or cause",
+        "unacademic": "really committed to",
+        "examples": [
+          "The foundation is dedicated to preserving endangered species.",
+          "She's a teacher dedicated to helping students reach their full potential."
+        ],
+        "synonyms": [
+          "committed to",
+          "devoted to",
+          "focused on"
+        ],
+        "opposites": [
+          "indifferent to",
+          "apathetic about",
+          "neglectful of"
+        ]
+      },
+      {
+        "word": "simplify",
+        "word_type": "verb",
+        "pronunciation": {
+          "text": "/ˈsɪmplɪfaɪ/"
+        },
+        "vi_translate": "đơn giản hóa",
+        "word_definition": "To make something less complicated or easier to understand",
+        "unacademic": "make easier",
+        "examples": [
+          "The teacher tried to simplify the complex math problem for her students.",
+          "We need to simplify our manufacturing process to reduce costs."
+        ],
+        "synonyms": [
+          "streamline",
+          "uncomplicate",
+          "clarify"
+        ],
+        "opposites": [
+          "complicate",
+          "confuse",
+          "elaborate"
+        ]
+      },
+      {
+        "word": "utilize",
+        "word_type": "verb",
+        "pronunciation": {
+          "text": "/ˈjuːtəlaɪz/"
+        },
+        "vi_translate": "sử dụng",
+        "word_definition": "To make practical and effective use of something",
+        "unacademic": "use",
+        "examples": [
+          "We need to utilize our resources more efficiently to meet the deadline.",
+          "The company plans to utilize new technologies to improve productivity."
+        ],
+        "synonyms": [
+          "use",
+          "employ",
+          "apply"
+        ],
+        "opposites": [
+          "waste",
+          "neglect",
+          "disregard"
+        ]
+      }
+    ]
+  }
+]

@@ -1,8 +1,8 @@
 <script>
-  import vocaInUsePreIntermediateData from '@/db/voca-in-use-pre-intermediate.json'
-
   import { page } from '$app/stores';
 	import { back } from '@/util/route';
+
+  let { data } = $props()
 </script>
 
 <div class="py-8 px-6">
@@ -15,11 +15,8 @@
     </button>
   </div>
 
-  <!-- <div class="my-6">
-    <h1 class="text-2xl">All topics:</h1>
-  </div> -->
   <div class="grid grid-cols-2 gap-2 mt-6">
-    {#each vocaInUsePreIntermediateData as unit}
+    {#each data.book as unit}
       <a href="{$page.url.pathname}/{unit.name}">
         <div class="relative z-10 flex flex-col gap-1 rounded-lg p-4 bg-white text-center text-dark h-48">
           <div class="flex w-full items-center justify-between">
