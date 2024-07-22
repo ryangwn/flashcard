@@ -3,25 +3,25 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'Bdogrotesk';
+  font-family: 'Uncut Sans';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(/fonts/BDOGrotesk-Regular.otf) format('otf');
+  src: url(/fonts/UncutSans-Variable.woff2) format('woff2');
 }
 @font-face {
-  font-family: 'Bdogrotesk';
+  font-family: 'Uncut Sans';
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url(/fonts/BDOGrotesk-Medium.otf) format('otf');
+  src: url(/fonts/UncutSans-Variable.woff2) format('woff2');
 }
 @font-face {
-  font-family: 'Bdogrotesk';
+  font-family: 'Uncut Sans';
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url(/fonts/BDOGrotesk-Bold.otf) format('otf');
+  src: url(/fonts/UncutSans-Variable.woff2) format('woff2');
 }
 
 ::view-transition-old(root) {
