@@ -90,10 +90,7 @@
   >
     {#each unit?.words as w}
       {@const playsound = getPronunciationAudio(w.word)}
-      <div
-        class="shrink-0 relative z-10 flex flex-col gap-1 rounded-xl bg-white shadow-sm p-6 min-h-96"
-        style="width: min(calc(100vw - {spaceX}px), calc(576px - {spaceX}px));"
-      >
+      <div class="shrink-0 relative z-10 flex flex-col gap-1 rounded-xl bg-white shadow-sm p-6 w-full max-w-80 min-h-96">
         <div class="flex flex-col w-full">
           <div class="font-wide text-3xl leading-none underline flex items-center space-x-3">
             <p>{w.word}</p>
