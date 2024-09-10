@@ -1,14 +1,11 @@
 <script>
   // @ts-nocheck
-
-  import vocaInUsePreIntermediateData from '@/db/voca-in-use-pre-intermediate.json'
-
   import { page } from '$app/stores'
 	import { onMount } from 'svelte';
 	import { TouchSwipeCard } from '@/lib/touch-swipe';
 	import { back } from '@/util/route';
 
-  const unit = vocaInUsePreIntermediateData.find(u => u.name === $page.params.slug)
+  const { data } = $props()
   
   let currentIdx = $state(0)
   let sliderWrapper = $state(null)
@@ -16,7 +13,7 @@
   let sliderWidth = $derived(sliderWrapper?.scrollWidth + spaceX)
   let cardWidth = $derived(sliderWrapper?.children?.[0].offsetWidth + 12) // add space-x card
   let hasPrevious = $derived(currentIdx > 0)
-  let hasNext = $derived(currentIdx != unit.words.length - 1)
+  let hasNext = $derived(currentIdx != data.unit.words.length - 1)
 
   onMount(() => {
     const touchSwipeCard = new TouchSwipeCard(sliderWrapper);
@@ -40,7 +37,7 @@
     sliderWrapper.style.transform = `translate3d(-${currentIdx * cardWidth}px, 0, 0px)`
   }
 
-  function getPronunciationAudio(word) {
+  function getpronuncationAudio(word) {
   let audio = null;
   let isLoaded = false;
 
@@ -88,8 +85,8 @@
     class="mt-auto flex flex-nowrap space-x-3 px-6"
     style="transition: transform 500ms ease; width: {sliderWidth}px"
   >
-    {#each unit?.words as w}
-      {@const playsound = getPronunciationAudio(w.word)}
+    {#each data.unit?.words as w}
+      {@const playsound = getpronuncationAudio(w.word)}
       <div class="shrink-0 relative z-10 flex flex-col gap-1 rounded-xl bg-white shadow-sm p-6 w-full max-w-80 min-h-96">
         <div class="flex flex-col w-full">
           <div class="font-wide text-3xl leading-none underline flex items-center space-x-3">
@@ -108,7 +105,7 @@
               </svg>
             </button>
           </div>
-          <p class="mt-2 text-lg text-gray-700">{w.pronunciation.text}</p>
+          <p class="mt-2 text-lg text-gray-700">{w.pronuncation.text}</p>
         </div>
         <div class="mt-4 flex-1 flex flex-col text-left leading-5">
           <p class="font-medium text-stone-500">{w.vi_translate}</p>
@@ -137,7 +134,7 @@
     <div class="flex space-x-2">
       <span>{currentIdx + 1}</span>
       <span>/</span>
-      <span class="font-medium">{unit?.words?.length} words</span>
+      <span class="font-medium">{data.unit?.words?.length} words</span>
     </div>
     <button
       class="w-8 inline-flex items-center justify-center disabled:opacity-40 disabled:pointer-events-none"

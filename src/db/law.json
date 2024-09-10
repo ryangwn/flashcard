@@ -1,0 +1,118 @@
+[
+  {
+    "name": "WORLD 1",
+    "words": [
+      {
+        "word": "murdering",
+        "word_type": "verb",
+        "pronuncation": {
+          "text": "/ˈmɜːrdərɪŋ/"
+        },
+        "vi_translate": "giết người",
+        "word_definition": "The act of unlawfully killing someone with premeditation or intent.",
+        "examples": [
+          "The suspect was accused of murdering his business partner.",
+          "Murdering innocent civilians is considered a war crime."
+        ],
+        "synonyms": [
+          "killing",
+          "slaying",
+          "assassinating"
+        ],
+        "opposites": [
+          "preserving",
+          "protecting",
+          "saving"
+        ]
+      },
+      {
+        "word": "horrible",
+        "word_type": "adjective",
+        "pronuncation": {
+          "text": "/ˈhɒrəbl/"
+        },
+        "vi_translate": "khủng khiếp, kinh khủng",
+        "word_definition": "Causing or likely to cause horror; shocking and frightful.",
+        "examples": [
+          "The accident scene was a horrible sight.",
+          "They had a horrible experience during their vacation."
+        ],
+        "synonyms": [
+          "dreadful",
+          "terrible",
+          "awful"
+        ],
+        "opposites": [
+          "wonderful",
+          "delightful",
+          "pleasant"
+        ]
+      },
+      {
+        "word": "subject matter",
+        "word_type": "noun",
+        "pronuncation": {
+          "text": "/ˈsʌbdʒekt ˌmætər/"
+        },
+        "vi_translate": "chủ đề, đề tài",
+        "word_definition": "The topic or theme of a discussion, book, work of art, etc.",
+        "examples": [
+          "The subject matter of the painting was the French Revolution.",
+          "The professor's lecture covered a wide range of subject matter."
+        ],
+        "synonyms": [
+          "topic",
+          "theme",
+          "content"
+        ],
+        "opposites": []
+      },
+      {
+        "word": "broader",
+        "word_type": "adjective (comparative)",
+        "pronuncation": {
+          "text": "/ˈbrɔːdər/"
+        },
+        "vi_translate": "rộng hơn, bao quát hơn",
+        "word_definition": "Wider in scope or more comprehensive than something else.",
+        "examples": [
+          "We need to take a broader view of the problem.",
+          "The new policy has broader implications for the entire industry."
+        ],
+        "synonyms": [
+          "wider",
+          "more extensive",
+          "more comprehensive"
+        ],
+        "opposites": [
+          "narrower",
+          "more limited",
+          "more specific"
+        ]
+      },
+      {
+        "word": "associated",
+        "word_type": "adjective",
+        "pronuncation": {
+          "text": "/əˈsoʊʃieɪtɪd/"
+        },
+        "vi_translate": "liên kết, kết hợp",
+        "word_definition": "Connected or related to something else.",
+        "examples": [
+          "Smoking is associated with an increased risk of lung cancer.",
+          "The company and its associated businesses have a global presence."
+        ],
+        "synonyms": [
+          "linked",
+          "connected",
+          "related"
+        ],
+        "opposites": [
+          "unrelated",
+          "disconnected",
+          "separate"
+        ]
+      }
+    ]
+  }
+]

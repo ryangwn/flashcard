@@ -6,7 +6,7 @@
       {
         "word": "indeed",
         "word_type": "adverb",
-        "pronunciation": {
+        "pronuncation": {
           "text": "/inˈdiːd/",
           "audio": ""
         },
@@ -23,7 +23,7 @@
       {
         "word": "abstract",
         "word_type": "",
-        "pronunciation": {
+        "pronuncation": {
           "text": "/ˈæbstrækt/",
           "audio": ""
         },
@@ -55,7 +55,7 @@
       {
         "word": "Cave",
         "word_type": "noun",
-        "pronunciation": {
+        "pronuncation": {
           "text": "/keɪv/"
         },
         "vi_translate": "Hang động",
@@ -77,7 +77,7 @@
       {
         "word": "Canal",
         "word_type": "noun",
-        "pronunciation": {
+        "pronuncation": {
           "text": "/kəˈnæl/"
         },
         "vi_translate": "Kênh đào",
@@ -99,7 +99,7 @@
       {
         "word": "Falls",
         "word_type": "noun",
-        "pronunciation": {
+        "pronuncation": {
           "text": "/fɔːlz/"
         },
         "vi_translate": "Thác nước",
@@ -121,7 +121,7 @@
       {
         "word": "Surface",
         "word_type": "noun",
-        "pronunciation": {
+        "pronuncation": {
           "text": "/ˈsɜːrfəs/"
         },
         "vi_translate": "Bề mặt",
@@ -144,7 +144,7 @@
       {
         "word": "Earth",
         "word_type": "noun",
-        "pronunciation": {
+        "pronuncation": {
           "text": "/ɜːrθ/"
         },
         "vi_translate": "Trái đất",
@@ -166,7 +166,7 @@
       {
         "word": "Covered in",
         "word_type": "phrasal verb",
-        "pronunciation": {
+        "pronuncation": {
           "text": "/ˈkʌvərd ɪn/"
         },
         "vi_translate": "Được bao phủ bởi",
@@ -188,7 +188,7 @@
       {
         "word": "In the world",
         "word_type": "phrase",
-        "pronunciation": {
+        "pronuncation": {
           "text": "/ɪn ðə wɜːrld/"
         },
         "vi_translate": "Trên thế giới",
@@ -209,7 +209,7 @@
       {
         "word": "Temperature",
         "word_type": "noun",
-        "pronunciation": {
+        "pronuncation": {
           "text": "/ˈtɛmprətʃər/"
         },
         "vi_translate": "Nhiệt độ",
@@ -230,7 +230,7 @@
       {
         "word": "Over",
         "word_type": "preposition",
-        "pronunciation": {
+        "pronuncation": {
           "text": "/ˈoʊvər/"
         },
         "vi_translate": "Trên, hơn",
@@ -251,7 +251,7 @@
       {
         "word": "Degrees",
         "word_type": "noun",
-        "pronunciation": {
+        "pronuncation": {
           "text": "/dɪˈɡriːz/"
         },
         "vi_translate": "Độ",
@@ -269,7 +269,7 @@
       {
         "word": "On Earth",
         "word_type": "phrase",
-        "pronunciation": {
+        "pronuncation": {
           "text": "/ɒn ɜːrθ/"
         },
         "vi_translate": "Trên Trái Đất",
@@ -290,7 +290,7 @@
       {
         "word": "Minus",
         "word_type": "preposition",
-        "pronunciation": {
+        "pronuncation": {
           "text": "/ˈmaɪnəs/"
         },
         "vi_translate": "Âm",
@@ -311,7 +311,7 @@
       {
         "word": "Waterfall",
         "word_type": "noun",
-        "pronunciation": {
+        "pronuncation": {
           "text": "/ˈwɔːtərfɔːl/"
         },
         "vi_translate": "Thác nước",
@@ -333,7 +333,7 @@
       {
         "word": "Deepest",
         "word_type": "adjective",
-        "pronunciation": {
+        "pronuncation": {
           "text": "/ˈdiːpɪst/"
         },
         "vi_translate": "Sâu nhất",
@@ -354,7 +354,7 @@
       {
         "word": "Ocean",
         "word_type": "noun",
-        "pronunciation": {
+        "pronuncation": {
           "text": "/ˈoʊʃən/"
         },
         "vi_translate": "Đại dương",
@@ -376,7 +376,7 @@
       {
         "word": "Continent",
         "word_type": "noun",
-        "pronunciation": {
+        "pronuncation": {
           "text": "/ˈkɒntɪnənt/"
         },
         "vi_translate": "Lục địa",
@@ -397,7 +397,7 @@
       {
         "word": "Consists of",
         "word_type": "phrasal verb",
-        "pronunciation": {
+        "pronuncation": {
           "text": "/kənˈsɪsts əv/"
         },
         "vi_translate": "Bao gồm",
@@ -415,7 +415,7 @@
       {
         "word": "Regions",
         "word_type": "noun",
-        "pronunciation": {
+        "pronuncation": {
           "text": "/ˈriːdʒənz/"
         },
         "vi_translate": "Vùng, khu vực",
@@ -434,7 +434,7 @@
       {
         "word": "Landscapes",
         "word_type": "noun",
-        "pronunciation": {
+        "pronuncation": {
           "text": "/ˈlændskeɪps/"
         },
         "vi_translate": "Phong cảnh",
@@ -456,7 +456,7 @@
       {
         "word": "Contrasts",
         "word_type": "noun",
-        "pronunciation": {
+        "pronuncation": {
           "text": "/ˈkɒntrɑːsts/"
         },
         "vi_translate": "Sự tương phản",
@@ -477,7 +477,7 @@
       {
         "word": "Climate",
         "word_type": "noun",
-        "pronunciation": {
+        "pronuncation": {
           "text": "/ˈklaɪmət/"
         },
         "vi_translate": "Khí hậu",
@@ -498,7 +498,7 @@
       {
         "word": "Distance",
         "word_type": "noun",
-        "pronunciation": {
+        "pronuncation": {
           "text": "/ˈdɪstəns/"
         },
         "vi_translate": "Khoảng cách",
@@ -520,7 +520,7 @@
       {
         "word": "Planet",
         "word_type": "noun",
-        "pronunciation": {
+        "pronuncation": {
           "text": "/ˈplænɪt/"
         },
         "vi_translate": "Hành tinh",
@@ -541,7 +541,7 @@
       {
         "word": "Rainforest",
         "word_type": "noun",
-        "pronunciation": {
+        "pronuncation": {
           "text": "/ˈreɪnfɒrɪst/"
         },
         "vi_translate": "Rừng mưa nhiệt đới",
